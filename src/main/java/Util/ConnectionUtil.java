@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * The ConnectionUtil class will be utilized to create an active connection to our database. This class utilizes the
+ * the ConnectionUtil class will be utilized to create an active connection to our database. This class utilizes the
  * singleton design pattern. We will be utilizing an in-memory called h2database. In-memory means that the database
  * is dissolved when the program ends - it is only for use in testing. Do not change anything in this class.
  */
